@@ -73,7 +73,7 @@ https://github.com/PowerShellMafia/PowerSploit/tree/master/Recon
 
 #### Get current domain
 ```
-Get-NetDomain
+Get-Domain 
 ```
 
 #### Get object of another domain
